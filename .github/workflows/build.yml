@@ -1,0 +1,9 @@
+name: Build Sonic 1 ROM
+
+"on":
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
